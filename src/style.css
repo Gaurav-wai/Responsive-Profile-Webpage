@@ -98,6 +98,12 @@ body{
 }
 }
 
+@media (min-width: 579px) and (max-width: 991px){
+    .card{
+        margin-top: 98px;
+    }
+}
+
 .card-1{
     margin-left: 22px;
 }
