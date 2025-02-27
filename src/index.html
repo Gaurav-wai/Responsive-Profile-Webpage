@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assignment-1</title>
+    <title>Responsive-webpage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -30,8 +30,8 @@
 
 
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-toggle navbar-expand-lg navbar-light bg-white shadow-sm px-3 z-2">
+          <!-- Navbar -->
+          <nav class="navbar navbar-toggle navbar-expand-lg navbar-light bg-white shadow-sm px-3 z-2">
 
             <div class="nav-1 container-fluid d-flex align-items-center  ">
 
@@ -78,7 +78,7 @@
                         <div class="LANG dropdown pe-5 me-5 ">
 
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+                                <img src="united-states.png"
                                     height="27px" width="27px" id="USflag"> <span id="EN">EN(UK)</span>
                             </a>
                             <ul class="dropdown-menu">
@@ -88,14 +88,14 @@
                         </div>
 
                         <!-- Notification Icon -->
-
-                        <a href="#" class="nav-link me-3">
+                        <span class="bold-text">|</span>
+                        <a href="#" class="nav-link ">
                             <i class="fa fa-bell"></i>
                         </a>
 
 
                         <!--Settings icon-->
-
+                        <span class="bold-text ">|</span>
                         <a href="#" class="nav-link me-3">
                             <i class="fa fa-cog"></i>
                         </a>
@@ -129,12 +129,13 @@
     </div>
 
 
+
     <!-- Sidebar-->
 
 
     <div class="hero-section d-flex">
 
-        <div class="d-flex SIDEBAR  border-end z-1">
+        <div class="d-flex SIDEBAR  border-end z-1 shadow">
 
 
 
@@ -149,7 +150,7 @@
 
                         <li class="sidebar-item nav-item  mt-3">
                         <li class="p-2 ps-3 d-flex justify-content-between align-items-center" href="#">
-                            <span><i class="bi bi-columns me-3"></i> Dashboard </span>
+                            <span><img src="dashboard.png" alt="dashboard" height="20px" widtth="20px" class="me-3"></i> Dashboard </span>
                             <i class="bi bi-chevron-right"></i>
                         </li>
 
@@ -173,7 +174,7 @@
 
                                 <li class="sidebar-subitem nav-item">
                                 <li href="#" class="sidebar-sublink p-2 ps-3 " href="#">
-                                    <i class="bi bi-file-earmark-text"></i> Certification
+                                    <img src="certificatation.png" alt="certification" height="20px" width="20px" class="me-3"> Certification
                                 </li>
                         </li>
 
@@ -184,24 +185,25 @@
 
                     <!-- Projects Link -->
                     <li class="sidebar-item nav-item mt-3">
-                    <li class="p-2 ps-3 d-flex justify-content-between align-items-center" href="#">
-                        <span><i class="bi bi-folder me-3"></i> Projects</span>
-                        <i class="bi bi-chevron-right"></i>
-                    </li>
-                    </li>
+                        <li class="p-2 ps-3 d-flex justify-content-between align-items-center" href="#">
+                            <span><img src="project.png" alt="project" height="20px" width="20px" class="me-3"> Projects</span>
+                            <i class="bi bi-chevron-right"></i>
+                        </li>
+                        </li>
 
-                    <!-- Clients Link -->
-                    <li class="sidebar-item nav-item  mt-3">
-                    <li class="p-2 ps-3 d-flex justify-content-between align-items-center" href="#">
-                        <span><i class="bi-people me-3"></i> Clients</span>
-                        <i class="bi-chevron-right"></i>
-                    </li>
-                    </li>
+                        <!-- Clients Link -->
+                        <li class="sidebar-item nav-item  mt-3">
+                        <li class="p-2 ps-3 d-flex justify-content-between align-items-center" href="#">
+                            <span><img src="clients.png" alt="Clients" height="20px" width="20px" class="me-3"> Clients</span>
+                            <i class="bi-chevron-right"></i>
+                        </li>
+                        </li>
+
 
 
                     <li class="sidebar-item nav-item  mt-3">
                     <li class="p-2 ps-3 d-flex justify-content-between align-items-center" href="" #>
-                        <span><i class="bi bi-mortarboard me-3"></i> Learning Paths</span>
+                        <span><img src="learning path (1).png" alt="learning path" height="20px" width="20px" class="me-3">Learning Paths</span>
                         <i class="bi-chevron-right"></i>
                     </li>
                     </li>
@@ -235,51 +237,40 @@
                     </span>
                     </div>
 
-                    <div class="row d-flex align-items-center">
-                        <div class="profile-img col-2 col-Padding">
-                            <img src="profile-placeholder.png" alt="Profile" class="profile img-fluid rounded-circle"
-                                height="170px" width="170px">
-                        </div>
+                   
 
-                        <div class="col-10 col-Padding">
-                            <div class="row">
+                
 
-                                <div class="col-sm-12 col-md-6 col-Padding">
-                                    <div class="">
-                                        <label class="form-label" style=" color: #303030;">First Name <span id="asterisk">*</span></label>
-                                        <input type="text" class="form-control" placeholder="Enter first name"
-                                            style="color: #BABABA;">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-Padding">
-                                    <div class="">
-                                        <label class="form-label" style=" color: #303030;">Last Name <span id="asterisk">*</span></label>
-                                        <input type="text" class="form-control" placeholder="Enter last name"
-                                            style="color: #bababa;">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-Padding">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label"
-                                            style=" color: #303030;">Email <span id="asterisk">*</span></label>
-                                        <input type="email" class="form-control" placeholder="example@mail.com"
-                                            id="exampleInputEmail1" aria-describedby="emailHelp"
-                                            style="color: #BABABA;">
-                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
-                                            else.</div>
-                                    </div>
-                                </div>
+                    <div class="row p-1 mt-3">
+                        <!-- Profile Image -->
+                        <div class="col-md-2 text-center">
+                            <div class="profile">
+                                <img src="profile-placeholder.png" class="profile-img rounded-circle" alt="User">
+                                  
                             </div>
-
-
-
-
-
-
                         </div>
-
+                    
+                        <!-- Form Section -->
+                        <div class="col-md-10">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-lg-6 ps-0">
+                                        <label class="form-label">First Name <span id="asterisk">*</span> </label>
+                                        <input type="text" class="form-control" placeholder="Enter first name">
+                                    </div>
+                                    <div class="col-lg-6 ps-0">
+                                        <label class="form-label">Last Name <span id="asterisk">*</span> </label>
+                                        <input type="text" class="form-control" placeholder="Enter last name">
+                                    </div>
+                                    <div class="col-lg-12 ps-0">
+                                        <label class="form-label">Email <span id="asterisk">*</span> </label>
+                                        <input type="email" class="form-control" placeholder="example@mail.com">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-
+                    
                     <!-- </div> -->
                 </div>
 
@@ -443,11 +434,11 @@
                             </select> </div>
                     
                     </div>
-                    <div class="container mt-4 ">
-                        <h4 class="text-start ms-2">Bio</h4>
+                    <div class="container mt-4 ms-0 ">
+                        <h4 class="text-start">Bio</h4>
 
-                        <div class="card-1 shadow-sm">
-                            <div class="card-body">
+                        <div class="card-1 shadow-sm ms-0">
+                            <div class="card-body ms-0">
                                 <div id="toolbar">
                                     <button class="ql-bold"></button>
                                     <button class="ql-italic"></button>
@@ -477,21 +468,23 @@
                     </div>
 
 
-                    <div class="upload 
-                     col-sm-12 col-md-6 col-lg-3 mt-4 ms-3">
-                        <label for="inputAvailable" class="form-label"> Upload CV</label>
-                        <span class="upload-btn d-flex mt-2 col-sm-12 col-md-6 col-lg-3"
-                            style="border:1px ; padding: 10px; border-style:dashed; border-radius: 10px; color: #BABABA; ">
-                            <p class="cv-upload me-3 mt-2 "> Drag and drop file to upload</p>
-                            <button class="btn btn-primary" style="margin-left: auto">
-                                <img src="Group 196059.png">
-                                upload cv
-                            </button>
+                    
 
-                        </span>
+                    
+                        <div class="upload col-sm-12 col-md-6 col-lg-3 mt-4">
+                            <input type="file" id="file" style="display: none;"> Upload CV
+                            <span class="upload-btn d-flex mt-2 col-sm-12 col-md-6 col-lg-3"
+                                style="border:1px; padding: 10px; border-style:dashed; border-radius: 10px; color: #BABABA;">
+                                <p class="cv-upload me-3 mt-2"> Drag and drop file to upload</p>
+                                <button class="btn btn-primary" style="margin-left: auto" onclick="document.getElementById('file').click()">
+                                    <img src="Group 196059.png"> UPLOAD
+                                </button>
+                            </span>
+                        </div>
+                        
 
 
-                    </div>
+                    
 
                     <div class="form-body2-heading d-flex align-items-center mt-4 ">
                         <div class="add me-1">
@@ -509,7 +502,7 @@
 
                             
                             <div class="dropdown">
-                                <button class="btn btn-outline-light border border-primary  w-100 text-start" type="button" id="dropdownCheckbox"
+                                <button class="btn btn-outline-light border border  w-100 text-start" type="button" id="dropdownCheckbox"
                                   data-bs-toggle="dropdown" aria-expanded="false"  style="color: #BABABA;">
                                   Select Skill Sets
                                 </button>
@@ -545,7 +538,7 @@
 
                             </div>
 
-                            <div class=" col-sm-12 col-md-6 col-lg-3 col-Padding">
+                            <div class=" col-sm-12 col-md-6 col-lg-3 col-Padding mt-3">
                                 <label for="inputAvailable" class="form-label"> Level</label>
                                 <select class="form-select" aria-label="Default select example" style="color: #BABABA;">
                                     <option selected>Select Experience</option>
@@ -631,7 +624,7 @@
 
                             </div>
 
-                            <div class=" col-sm-12 col-md-6 col-lg-3 col-Padding">
+                            <div class=" col-sm-12 col-md-6 col-lg-3 col-Padding mt-3">
                                 <label for="inputAvailable" class="form-label"> Level</label>
                                 <select class="form-select" aria-label="Default select example" style="color: #BABABA;">
                                     <option selected>Select Experience</option>
@@ -717,7 +710,7 @@
 
                             </div>
 
-                            <div class=" col-sm-12 col-md-6 col-lg-3 col-Padding">
+                            <div class=" col-sm-12 col-md-6 col-lg-3 col-Padding mt-3">
                                 <label for="inputAvailable" class="form-label"> Level</label>
                                 <select class="form-select" aria-label="Default select example" style="color: #BABABA;">
                                     <option selected>Select Experience</option>
@@ -803,8 +796,8 @@
 
                             </div>
 
-                            <div class=" col-sm-12 col-md-6 col-lg-3  col-Padding">
-                                <label for="inputAvailable" class="form-label"> Level</label>
+                            <div class=" col-sm-12 col-md-6 col-lg-3  col-Padding mt-3">
+                                <label for="inputAvailable" class="form-label mt-1"> Level</label>
                                 <select class="form-select" aria-label="Default select example" style="color: #BABABA;">
                                     <option selected>Select Experience</option>
                                     <option value="1" style="color: #303030;">1</option>
