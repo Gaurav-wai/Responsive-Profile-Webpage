@@ -160,10 +160,21 @@ body{
 @media (max-width: 991px){
     .imgsec{
         width: 100vw !important;
-    }
+    };
+
+ 
+
+
+}
+
+.selectfont{
+    font-size: 15px !important;
 }
 
 
-
-
-
+@media (max-width: 991px){
+    .yearmar{
+        margin-bottom: 15px !important;
+        
+    }
+} 
