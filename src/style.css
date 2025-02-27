@@ -178,3 +178,106 @@ body{
         
     }
 } 
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .row.p-1 { 
+        display: flex;
+        flex-wrap: wrap; /* Ensures wrapping on medium screens */
+        align-items: center; /* Keeps content aligned */
+    }
+
+    .profile-img {
+        max-width: 120px; /* Reduce image size to fit */
+        max-height: 120px;
+    }
+
+    .col-md-10 {
+        flex: 1; /* Allows form to take remaining space */
+        min-width: 0; /* Prevents overflowing */
+    }
+
+    .col-md-6, .col-md-12 {
+        flex: 1 1 100%; /* Forces fields to stack if needed */
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1170px) {
+    .row.p-1 {
+        display: flex;
+        flex-wrap: nowrap; /* Keep profile and form in one row */
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 110px; /* Reduce profile image size */
+        height: 110px;
+    }
+
+    .col-md-2 {
+        flex: 0 0 12%; /* Reduce profile image container width */
+    }
+
+    .col-md-10 {
+        flex: 1; /* Allow form to take the remaining space */
+        min-width: 0; /* Prevent overflow */
+    }
+
+    .col-md-6, .col-md-12 {
+        flex: 1 1 49%; /* Balance first and last name inputs */
+    }
+}
+
+@media (min-width: 1170px) and (max-width: 1321px) {
+    .row.p-1 {
+        display: flex;
+        flex-wrap: nowrap; /* Keep profile and form in one row */
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 100px; /* Reduce profile image size */
+        height: 100px;
+    }
+
+    .col-md-2 {
+        flex: 0 0 12%; /* Reduce profile image container width */
+    }
+
+    .col-md-10 {
+        flex: 1; /* Allow form to take the remaining space */
+        min-width: 0; /* Prevent overflow */
+    }
+
+    .col-md-6, .col-md-12 {
+        flex: 1 1 49%; /* Balance first and last name inputs */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1050px) {
+    .row.p-1 {
+        display: flex;
+        flex-wrap: nowrap; /* Keep profile and form in one row */
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 100px; /* Reduce profile image size */
+        height: 100px;
+    }
+
+    .col-md-2 {
+        flex: 0 0 12%; /* Reduce profile image container width */
+    }
+
+    .col-md-10 {
+        flex: 1; /* Allow form to take the remaining space */
+        min-width: 0; /* Prevent overflow */
+    }
+
+    .col-md-6, .col-md-12 {
+        flex: 1 1 49%; /* Balance first and last name inputs */
+    }
+}
